@@ -6,9 +6,9 @@ env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
 on:
-  #push:
-    #paths:
-    #  - 'CHANGELOG.md'
+  push:
+    paths:
+      - 'CHANGELOG.md'
   watch:
     types: started
   #schedule:
