@@ -1,4 +1,3 @@
-#
 name: NanoPi-R2S OpenWrt 19.07 Build
 
 env:
@@ -6,9 +5,9 @@ env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
 on:
-  push:
-    paths:
-      - 'CHANGELOG.md'
+  # push:
+    # paths:
+      #- 'CHANGELOG.md'
   watch:
     types: started
   #schedule:
